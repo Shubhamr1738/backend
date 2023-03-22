@@ -20,7 +20,7 @@ const userFormSchema = new mongoose.Schema({
             type: Number
         },
         cementReceived: {
-            type: Boolean
+            type: String
         },
         totalStock: {
             type: Number
@@ -67,7 +67,7 @@ const userFormSchema = new mongoose.Schema({
                 type:Number
             },
             paid: {
-                type: Boolean
+                type: String
             },
             time: {
                 type: String
