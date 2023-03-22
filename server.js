@@ -8,7 +8,7 @@ const userFormRoute = require("./routes/userForm_routes");
 const app = express();
 app.use(bodyParser.json());
 
-app.use(cors({origin: 'http://localhost:4200' }));
+app.use(cors({origin: 'https://unicontrols.web.app/' }));
 
 app.use((req, res, next) => {
     res.setHeader("Access-Control-Allow-Origin", "*");
